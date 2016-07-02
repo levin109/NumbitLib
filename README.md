@@ -1,5 +1,5 @@
 # NumbitLib
-Numerical calculation algorithm written by C#,mainly includes complex number and linear algebra computation.
+Numerical computation algorithm written by C#,mainly includes complex number and linear algebra computation.
 
 ![Numbit](http://numbit.laifh.com/images/feature/5svdcmd.png)
 
