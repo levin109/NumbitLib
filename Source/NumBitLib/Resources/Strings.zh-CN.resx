@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArrayMatch" xml:space="preserve">
+    <value>两个数组的长度必须一致。</value>
+  </data>
+  <data name="Bidiag" xml:space="preserve">
+    <value>矩阵的行数必须大于列数。</value>
+  </data>
+  <data name="Cat" xml:space="preserve">
+    <value>连接的两个矩阵维数必须匹配。</value>
+  </data>
+  <data name="CompareTo" xml:space="preserve">
+    <value>参数必须是兼容的Complex类型。</value>
+  </data>
+  <data name="Converge" xml:space="preserve">
+    <value>算法求解失败：无法收敛</value>
+  </data>
+  <data name="CrossProd" xml:space="preserve">
+    <value>只能计算3维向量空间中的向量积。</value>
+  </data>
+  <data name="Deconv" xml:space="preserve">
+    <value>不能除于零多项式。</value>
+  </data>
+  <data name="Hermitian" xml:space="preserve">
+    <value>必须是Hermitian矩阵。</value>
+  </data>
+  <data name="IsSquare" xml:space="preserve">
+    <value>必须是一个方阵。</value>
+  </data>
+  <data name="IsSymetric" xml:space="preserve">
+    <value>必须是一个对称矩阵。</value>
+  </data>
+  <data name="IsTridiag" xml:space="preserve">
+    <value>必须是一个三对角矩阵。</value>
+  </data>
+  <data name="LU" xml:space="preserve">
+    <value>不带置换矩阵的LU分解不存在。</value>
+  </data>
+  <data name="MatrixCtor" xml:space="preserve">
+    <value>矩阵的行数与列数必须是一个正整数。</value>
+  </data>
+  <data name="MatrixCtor1" xml:space="preserve">
+    <value>矩阵的大小必须与数组的长度匹配。</value>
+  </data>
+  <data name="MatrixCtor2" xml:space="preserve">
+    <value>方阵的维数必须是一个正整数。</value>
+  </data>
+  <data name="MatrixMatch" xml:space="preserve">
+    <value>两个矩阵的维数必须一致。</value>
+  </data>
+  <data name="MatrixMul" xml:space="preserve">
+    <value>左矩阵的列数必须与右矩阵的行数一致。</value>
+  </data>
+  <data name="Nchoosek" xml:space="preserve">
+    <value>组合数：Cnk，k必须在0~n范围内。</value>
+  </data>
+  <data name="NonNegInt" xml:space="preserve">
+    <value>必须是一个非负整数。</value>
+  </data>
+  <data name="Norm" xml:space="preserve">
+    <value>参数: p=1 或者 2，'I'， 'F'。</value>
+  </data>
+  <data name="Polyder" xml:space="preserve">
+    <value>导数的阶数必须是一个非负整数。</value>
+  </data>
+  <data name="PosDef" xml:space="preserve">
+    <value>必须是正定矩阵。</value>
+  </data>
+  <data name="PosInt" xml:space="preserve">
+    <value>必须是一个正整数。</value>
+  </data>
+  <data name="RelFac" xml:space="preserve">
+    <value>松弛因子w必须选择在0~2范围内。</value>
+  </data>
+  <data name="Roots" xml:space="preserve">
+    <value>零次多项式没有根。</value>
+  </data>
+  <data name="Singular" xml:space="preserve">
+    <value>矩阵为零矩阵或者接近奇异。</value>
+  </data>
+  <data name="Solve" xml:space="preserve">
+    <value>（A*x=b）系数矩阵A的列数必须与常数项b的个数一致。</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>（参数）排序模式必须指定为1或者2。</value>
+  </data>
+</root>
